@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    font-family: 'Salsa', cursive;
+}
+
+.hero-section {
+    min-height: 100vh;
+    background-color: #f99501;
+    background-image: url(/images/orange-backdrop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.hero-section p {
+    font-size: 46px;
+    font-weight: 400;                          /* he kelyani content mot hote */
+    font-family: 'Salsa', cursive;
+     max-width: 550px;                         /* he kelyani te ek khali ek aale */ */
+}
+
+.jhalar {
+    width: 200px;
+    margin-bottom: -150px;
+}
+
+.paragraph-audio {
+    margin-left: 15rem;                         /* ya madhe paragraph ani audio same ek khali pahije hote mhnun ek div 
+                                                 karun yala ashi margin dili tyani te barobar ek khali ek aale */
+
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #FBD8A4;
+}
+
+.audio-container {
+    background-color: #FBD8A4;
+    max-width: max-content;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+
+/* second part */
+.lakshmi-ganesha{
+    background-color: #F99501;
+    padding-block: 1em;
+    padding-inline: 1rem;
+}
+
+.lakshmi-ganesha-img{
+    max-width: 900px;
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+}
+
+
+
+/* line */
+.horizontal-divider{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 800px;
+    margin-inline: auto;
+    padding-bottom: 1rem;
+}
+.horizontal-line{
+    height: 2px;
+    background-color: #FBD8A4;
+    width: 468px;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    background-color: #FBD8A4;
+    border-radius: 100%;
+    flex-shrink: 0;
+}
+
+.lakshmi-ganesha h2{
+    font-family: "Style Script", cursive;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+/* third part */
+.white-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.white-card{
+    background-color:white ;
+    max-width: 520px;
+    padding: 4rem;
+    border-radius: 22px;
+    display: inline-block;
+}
+
+.white-card p{
+    font-size: 2rem;
+    
+}
+
+.little-girl{
+    max-width: 260px;
+    margin-left: -5rem;
+}
+
+
+
+/* fourth part */
+.lakshmi-ganesh-card{
+    background-color: white;
+    padding: 4rem;
+    border-radius: 24px;
+    max-width: 772px;
+    display: flex;
+    margin-inline: auto;
+}
+
+.lakshmi-ganesh-card img{
+    width: 50%;
+}
+
+.thank-you-text{
+    max-width: 900px;
+    margin-inline: auto;
+    width: 100%;
+}
+
+.thank-you-text h2 {
+    text-align: left;
+    
+}
+
+
+.my-name{
+    text-align: right;
+}
+
+
+
+/* mobile view */
+@media (width < 840px) {
+    .first-deepak {
+        display: block;
+        margin-left: auto;
+    }
+
+    .second-deepak {
+        display: none;
+    }
+
+    .paragraph-audio {
+        margin-left: 1rem;
+    }
+
+    .jhalar {
+        margin-bottom: 0;
+    }
+
+    .SoulfulMusic, .music-icon, .playing-music{
+        display: none;
+    }
+
+    .hero-section p {
+        font-size: 32px;
+    }
+
+    .white-card{
+        padding-block: 1rem;
+        padding-left: 2rem;
+    }
+
+    .little-girl{
+        max-width: 160px;
+    }
+    
+    .lakshmi-ganesh-card{
+        padding: 2rem;
+    }
+    
+
+
+}
+
+@media (max-width: 540px) {
+    .hero-section p{
+        font-size: 24px;
+    }                                              /*  ya media qurey ni jitk zoom out kel titk content ani img lahan hoil mhnun he ankhi media query lavli */
+
+    .first-deepak{
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .lakshmi-ganesha h2{
+        font-size: 32px;
+    }
+
+    .white-card p {
+        font-size: 1rem;
+    }
+}
+
